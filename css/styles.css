@@ -1,0 +1,241 @@
+
+/*      VARIABLES:      */
+:root{
+    --pink-color:rgb(214, 100, 148);
+    --white-color:white;
+    /* Space */
+    --space:10px;
+    --box-shadow:0 0 7px #f197bd;
+}
+
+
+html, body {
+    padding:0;
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size:40px;
+}
+h3{
+    padding: 50px 0 20px 0;
+    color: #313337;
+    text-align: center;
+    font-size:35px;
+}
+
+
+nav {
+    display: flex;
+    background-color:var(--pink-color);
+    padding:var(--space);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav li {
+    padding: var(--space);
+}
+
+nav li a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav li a:hover {
+    color: #FF0080;
+    transition: 0.29s;
+}
+label {
+    font-size: px;
+    margin: 10px 0;
+}
+
+.sell_module form{
+    margin: 25% 0 0 0;
+}
+.sell_module input{
+    width: 270px;
+    height:35px;
+    align-content:center;
+    margin: 10px 0;
+    border: 1px solid rgb(255, 119, 141);
+    border-radius: 10px;
+    outline: none;
+}
+.btn-form{
+    width: 100%;
+    background-color: var(--pink-color);
+    cursor: pointer;
+}
+
+.main_section{
+    padding:16%;
+    text-align: center;
+    color: #ff0099;
+    background-image: url('https://i.pinimg.com/originals/04/f8/68/04f86871dd7900bb32a106ee0730b579.jpg');
+    background-size: cover;
+}
+
+.products{
+    background-image:url('https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c10/images/curve.png');
+    height: 200px;
+    background-size: cover;
+    background-position:center top;
+    padding:10%;
+    display: flex;
+    justify-content: center;
+}
+
+.product{
+    padding:15px;
+    margin-top: -250px;
+}
+
+.product .content{
+    font-size: 1.5rem;
+    background-color: var(--white-color);
+    padding:20px;
+    box-shadow: var(--box-shadow);
+
+}
+
+.image_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: var(--pink-color);
+    width: 100%;
+    padding:var(--space);
+    font-size: 18px;
+    border:none;
+    border-radius:var(--space);
+    color: var(--white-color);
+    font-weight:bold;
+}
+.main_button a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+.main_button:hover{
+    cursor: pointer;
+    background-color: rgb(218, 47, 118);
+    transition:0.3s;
+}
+
+.description {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-areas:". cute . world . hot . " ;
+    text-align: center;
+}
+.description h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #313337;
+}
+
+.description div p {
+    font-size: 15px;
+}
+
+.description div img {
+    height: 113px;
+}
+
+.cute{
+    grid-area: cute;
+}
+.world{
+    grid-area: world;
+}
+.hot{
+    grid-area: hot;
+}
+
+.mentions{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr 1fr 100px;
+    grid-template-areas:". box-1 box-2 box-3 box-4 . " ;
+    justify-items: center;
+    text-align: center;
+    
+
+}
+.box-1{
+    grid-area:box-1;
+    
+    
+}
+.box-2{
+    grid-area:box-2;
+}
+.box-3{
+    grid-area:box-3;
+}
+.box-4{
+    grid-area:box-4;
+}
+.box{
+    width: 90%;
+    box-shadow:var(--box-shadow);
+    border-radius: 10px;
+}
+
+.box img {
+    width: 100%;
+    
+}
+
+.box-container {
+    margin-left: 10px;;
+}
+.box-container h4{
+    text-align: left;
+    color: #313337;
+    font-size: 17px;
+    margin-bottom:-2px ;
+    
+}
+.box-container p {
+    font-size:12px;
+    text-align: left;
+}
+/* VENTA */
+.sell_module{
+    background-color: var(--white-color);
+    box-shadow: var(--box-shadow);
+    padding: var(--space);
+    
+}
+.sell_module img {
+    width:250px;
+
+}
+.sell_module h3 {
+    text-align:left;
+    padding:0;
+    margin:0;
+
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:#313337;
+    color: white;
+    margin-top:100px;
+    font-size: 12px;
+    padding: 0 10px
+}

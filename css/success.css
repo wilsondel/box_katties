@@ -1,0 +1,15 @@
+body{
+    height:100vh;
+    background-color:rgb(231, 155, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content_sell{
+    text-align: center;
+}
+.content_sell a {
+    color: rgb(239, 205, 155);
+}
+

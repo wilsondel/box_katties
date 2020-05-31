@@ -1,0 +1,46 @@
+@media screen and (max-width:600px){
+    .products {
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+    }
+    .main_section {
+        padding:4%
+    }
+    .description{
+        display: inherit;
+    }
+    .mentions{
+        display: inherit;
+        text-align: -webkit-center
+    }
+    .box{
+        margin-bottom: 20px;
+    }
+    .box-1{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+    .box-2{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+    .box-3{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+    .box-4{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+    .footer{
+        height: 70px;
+        align-items: center;
+        font-size:15px;
+    }
+}
+
+
+
